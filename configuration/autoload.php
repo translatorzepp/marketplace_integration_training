@@ -6,7 +6,7 @@ ini_set('display_startup_errors',1);
 ini_set('display_errors',1);
 error_reporting(1);
 
-// If you update your Braintree PHP library, remember to change the version number here!
+// If you update your Braintree PHP library, remember to confirm that the path hasn't changed here!
 // require 'braintree-php-3.8.0/lib/Braintree.php';
 require 'braintree_php-master/lib/Braintree.php';
 
